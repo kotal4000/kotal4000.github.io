@@ -65,7 +65,7 @@ const resolver = {
    *
    */
   const strings = [
-    'Welcome to Kotal Designs.',
+    'Welcome to Kotal Design.',
     'Please enter #gallery to view projects',
     'Contact me through the #contact page',
     /*'What are you waiting for... ',
