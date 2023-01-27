@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <ul>
+                <svg class="icon" width="20" height="26" viewBox="0 0 20 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 0C20 1.70718 19.6655 3.39765 19.0157 4.97488C18.3658 6.55211 17.4133 7.98522 16.2125 9.19238C15.0118 10.3995 13.5862 11.3571 12.0173 12.0104C10.4485 12.6637 8.76694 13 7.06878 13V9.03968C7.06878 7.63705 8.24821 6.54441 9.54306 6.00521C10.3275 5.67856 11.0403 5.19977 11.6407 4.59619C12.241 3.99261 12.7173 3.27606 13.0422 2.48744C13.3672 1.69883 13.5344 0.853591 13.5344 0H20Z"/>
+                    <path d="M19.9312 26C19.9312 24.2928 19.5968 22.6024 18.9469 21.0251C18.2971 19.4479 17.3445 18.0148 16.1438 16.8076C14.943 15.6005 13.5175 14.6429 11.9486 13.9896C10.3797 13.3363 8.69817 13 7.00002 13V16.9603C7.00002 18.3629 8.17945 19.4556 9.4743 19.9948C10.2587 20.3214 10.9715 20.8002 11.5719 21.4038C12.1723 22.0074 12.6485 22.7239 12.9735 23.5126C13.2984 24.3012 13.4656 25.1464 13.4656 26H19.9312Z"/>
+                    <path d="M0 20.069C0 16.1649 3.16493 13 7.06906 13V26H0V20.069Z"/>    
+                </svg>  
+                <li><a href="index.html">#home</a></li>
+                <li><a href="contact.html">#contact</a></li>
+                <li><a href="gallery.html">#gallery-></a></li>
+            </ul>
+            <div>
+                <p class="border">
+                =====================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+                </p>
+            </div>
+        </nav>
+        <div class="images">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern"> 
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern"> 
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+            <img src="https://i1.lensdump.com/i/RhE4io.png" alt="Kotal Logo Pattern">
+        </div>
+        <div class="nav-down">
+            <button class="nav-button" onclick="topFunction()" id="nav-button" class="return">
+                <svg class="arrow-svg" width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.01771 13.8373C0.62309 13.4454 0.425781 12.9467 0.425781 12.3411C0.425781 11.7355 0.62309 11.2368 1.01771 10.8449L10.9191 1.01283C11.1343 0.799094 11.3675 0.647339 11.6186 0.557568C11.8697 0.469222 12.1388 0.425049 12.4258 0.425049C12.7128 0.425049 12.9912 0.478484 13.2609 0.585354C13.5293 0.692224 13.7531 0.834717 13.9325 1.01283L23.8339 10.8449C24.2285 11.2368 24.4258 11.7355 24.4258 12.3411C24.4258 12.9467 24.2285 13.4454 23.8339 13.8373C23.4392 14.2291 22.937 14.425 22.3271 14.425C21.7173 14.425 21.215 14.2291 20.8204 13.8373L12.4258 5.50138L4.03116 13.8373C3.63654 14.2291 3.1343 14.425 2.52444 14.425C1.91457 14.425 1.41233 14.2291 1.01771 13.8373Z"/>
+                </svg>                                            
+            </button>               
+        </div>
+    </div>
+</body>
+    <script>
+        let mybutton = document.getElementById("nav-button");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0; // Safari
+        document.documentElement.scrollTop = 0; // Chrome, Firefox, IE and Opera
+        }
+    </script>
+</html>
