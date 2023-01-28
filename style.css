@@ -179,22 +179,22 @@ input[type=submit]:hover {
 /* style section for gallery*/
 
 .images{
-  padding: 50px;
+  padding: 3%;
   margin: auto;
   text-align: center; 
 }
 
 
 .images img{
-  height: 450px;
-  width: 450px;
+  height: 25%;
+  width: 25%;
   margin: 30px;
   transition: .4s;
 }
 
 .images img:hover{
-  height: 550px;
-  width: 550px;
+  height: 30%;
+  width: 30%;
   transition: .4s;
 }
 
