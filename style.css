@@ -188,13 +188,13 @@ input[type=submit]:hover {
 .images img{
   height: 450px;
   width: 450px;
-  margin: 50px;
+  margin: 30px;
   transition: .4s;
 }
 
 .images img:hover{
-  height: 500px;
-  width: 500px;
+  height: 550px;
+  width: 550px;
   transition: .4s;
 }
 
