@@ -108,6 +108,15 @@ nav ul li a:hover{
   text-transform: lowercase;
 }
 
+.privacy-policy{
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 30px;
+  left: 0;
+  margin-bottom: 0px;
+}
+
 
 /*css section for contact form*/
 
