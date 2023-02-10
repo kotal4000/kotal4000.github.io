@@ -195,15 +195,15 @@ input[type=submit]:hover {
 
 
 .images img{
-  height: 25%;
-  width: 25%;
+  height: 50%;
+  width: 50%;
   margin: 30px;
   transition: .4s;
 }
 
 .images img:hover{
-  height: 30%;
-  width: 30%;
+  height: 60%;
+  width: 60%;
   transition: .4s;
 }
 
